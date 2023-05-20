@@ -1,5 +1,5 @@
 import React from "react";
-import AppCard from "./AppCard";
+import SmallAppCard from "./SmallAppCard";
 
 export default function MiddleSection() {
   return (
@@ -9,8 +9,8 @@ export default function MiddleSection() {
           Made for iOS and Android
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 justify-items-center gap-x-4 gap-y-16">
-          <AppCard model="apple" color="#007bcf" alt="Apple App" />
-          <AppCard model="android" color="#20d2c4" alt="Android App" />
+          <SmallAppCard model="apple" color="#007bcf" alt="Apple App" />
+          <SmallAppCard model="android" color="#20d2c4" alt="Android App" />
         </div>
       </div>
     </section>

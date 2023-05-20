@@ -1,7 +1,7 @@
 import React from "react";
 import { BsAndroid2, BsApple } from "react-icons/bs";
 
-export default function AppCard({ model, color, alt }) {
+export default function SmallAppCard({ model, color, alt }) {
   return (
     <div className="flex flex-col items-center justify-center pt-4 w-1/2 col-span-1">
       {model === "apple" ? (
