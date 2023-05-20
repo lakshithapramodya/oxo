@@ -9,7 +9,7 @@ export default function AppCard({ model, color, alt }) {
       ) : (
         model === "android" && <BsAndroid2 size="75px" color={color} />
       )}
-      <div className="w-[470px] md:w-[540px] lg:w-[450px] xl:w-[540px] mt-28">
+      <div className="w-full mt-28">
         <div
           className={`bg-[${color}] h-[400px] w-full rounded-3xl flex justify-center items-end`}
         >

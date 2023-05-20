@@ -3,7 +3,7 @@ import AppCard from "./AppCard";
 
 export default function MiddleSection() {
   return (
-    <section className="max-w-[95%] sm:max-w-[75%]  md:max-w-[90%] xl:max-w-[75%] mx-auto">
+    <section className="max-w-[95%] sm:max-w-[75%]  md:w-[80%] mx-auto">
       <div className="mt-28">
         <h2 className="text-[#16215c] text-4xl md:text-5xl font-semibold text-center ">
           Made for iOS and Android
