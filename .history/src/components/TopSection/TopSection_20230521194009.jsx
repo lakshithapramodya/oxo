@@ -28,7 +28,6 @@ export default function TopSection() {
             alt="Shopping App Icon"
             loading="lazy"
             width="auto"
-            height="auto"
           />
         </motion.div>
       </div>
