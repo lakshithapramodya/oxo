@@ -24,7 +24,6 @@ export default function SmallAppCard({ model, color, alt, directionLeft }) {
             className="object-contain"
             src="./images/phoneIcon2.png"
             alt={alt}
-            loading="lazy"
           />
         </div>
       </div>

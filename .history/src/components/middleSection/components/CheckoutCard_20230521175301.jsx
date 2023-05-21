@@ -11,7 +11,6 @@ export default function CheckoutCard() {
         className="mt-8 mr-auto object-contain lg:w-[450px]"
         src="./images/checkout.png"
         alt="Buy online, in store, on go"
-        loading="lazy"
       />
       <div className="mx-auto md:mx-0 lg:w-[42%] mt-12">
         <h2 className="text-[#16215c] text-4xl sm:text-[2.5rem] font-semibold text-start">

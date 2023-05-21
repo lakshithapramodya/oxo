@@ -5,12 +5,7 @@ export default function TopFooter() {
   return (
     <div className="pt-20 max-w-[95%] sm:max-w-[75%]  lg:max-w-[85%] 2xl:max-w-[75%] mx-auto md:flex md:items-start">
       <div>
-        <img
-          className=""
-          src="./images/logo.png"
-          alt="oxo logo"
-          loading="lazy"
-        />
+        <img className="" src="./images/logo.png" alt="oxo logo" />
 
         <p className="text-[#7d7a7f] text-justify mt-4 md:w-[80%]">
           Inspiration comes in many ways and you like to save everything from.
