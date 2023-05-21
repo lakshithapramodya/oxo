@@ -1,9 +1,13 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function CheckoutCard() {
   return (
     <div className="mt-28 lg:flex lg:items-center">
-      <img
+      <motion.img
+        initial={{ x: 100, opacity: 0 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 3 }}
         className="mt-8 mr-auto object-contain lg:w-[450px]"
         src="./images/checkout.png"
         alt="Buy online, in store, on go"
