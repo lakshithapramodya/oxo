@@ -40,7 +40,7 @@ const featuresData = [
 
 export default function BottomSection() {
   return (
-    <div className="bg-gradient-to-l from-[#dc61fe] to-[#7049c4] mt-16 h-[650px] md:h-[600px] lg:h-[520px]">
+    <div className="bg-gradient-to-l from-[#dc61fe] to-[#7049c4] mt-16 h-[600px] lg:h-[530px]">
       <div className="max-w-[95%] sm:max-w-[75%] lg:max-w-[85%] 2xl:max-w-[75%] mx-auto px-6 lg:px-0">
         <div className="pt-24">
           <h2 className="text-white text-5xl font-semibold text-center leading-[4rem]">

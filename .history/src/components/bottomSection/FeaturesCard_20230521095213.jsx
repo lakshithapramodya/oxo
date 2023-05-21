@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FeaturesCard({ title, description, icon, iconBg }) {
   return (
-    <div className="bg-white flex items-start justify-between p-10 rounded-xl pl-4 xl:pr-12 border col-span-1">
+    <div className="bg-white flex items-start justify-between p-10 rounded-xl pl-16 pr-12 xl:pr-12 border col-span-1">
       <div
         className={`w-24 h-24 rounded-full ${iconBg} flex items-center justify-center`}
       >
