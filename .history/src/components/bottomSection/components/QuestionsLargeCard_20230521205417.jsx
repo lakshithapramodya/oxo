@@ -58,15 +58,15 @@ export default function QuestionsLargeCard() {
         <p className="text-gray-400 mt-2 text-justify">
           Send your questions in our mail
         </p>
-        <div className="block sm:flex w-full sm:space-x-4 mt-4">
+        <div className="flex w-full space-x-4 mt-4">
           <input
-            className="rounded-lg px-2 py-3 sm:py-4 w-full sm:w-fit sm:flex-grow"
+            className="rounded-lg px-2 py-4 w-[70%]"
             type="email"
             placeholder="Enter Your Email"
           />
           <button
             id="questionsButton"
-            className="btn bg-[#007bcf] w-full sm:w-fit mt-2 sm:mt-0"
+            className="btn bg-[#007bcf] text-xs sm:text-sm"
           >
             Submit Now
           </button>
